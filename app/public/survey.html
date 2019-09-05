@@ -20,7 +20,7 @@
 				<input id="photo" type="text" class="form-control" placeholder="Link to Profile Photo (Required)">
 			</div>
 			<div class="form-group">
-				<label for="question1">I like playiing sports.</label>
+				<label for="question1">I like playing sports.</label>
 				<select class="form-control" id="question1">
 					<option value="empty"></option>
 					<option value="1">1 - Strongly disagree</option>
@@ -209,4 +209,24 @@
 			alert("Survey is incomplete!");
 		}
 	});
+
+
+// 	 // This function resets all of the data in our tables. This is intended to let you restart a demo.
+// 	 function clearTable() {
+//     alert("Clearing...");
+
+//     // Clear the tables on the server and then empty the elements on the client
+//     $.ajax({ url: "/api/clear", method: "POST" }).then(function() {
+//       $("#waitList").empty();
+//       $("#tableList").empty();
+//     });
+//   }
+
+//   $("#clear").on("click", clearTable);
+
+
+//   // Run Queries!
+//   // ==========================================
+//   runTableQuery();
+//   runWaitListQuery();
 </script>
