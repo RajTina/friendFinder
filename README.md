@@ -30,7 +30,7 @@ https://vast-garden-62466.herokuapp.com/
    * A GET route with the url `/api/friends`. This will be used to display a JSON of all possible friends.
    * A POST routes `/api/friends`. This will be handle incoming survey results. This route will also be used to handle the compatibility logic.
 
-   ## Our 2 routing files (htmlRoutes.js and apiRoutes.js) determine the back-end logic (based on the request being made, the response that gets sent to the browser); the HTML routes display the survey and the homepage based on the URL that is accessed, and the API routes send back existing content in our server-side data or add new friends
+    Our 2 routing files (htmlRoutes.js and apiRoutes.js) determine the back-end logic (based on the request being made, the response that gets sent to the browser); the HTML routes display the survey and the homepage based on the URL that is accessed, and the API routes send back existing content in our server-side data or add new friends
    * A default, catch-all route that leads to `home.html` which displays the home page
 
 5.   Application's data being saved inside of `app/data/friends.js` as an array of objects.
